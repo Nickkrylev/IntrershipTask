@@ -1,0 +1,36 @@
+.formAdmin input{
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    padding: 5px 16px;
+    border: 0px;
+    height: 19px;
+    width: 49.895%;
+    
+
+}
+.formAdmin {
+  
+    box-sizing: content-box;
+}
+.formAdmin .block{
+    display: flex;
+    justify-content: space-between;
+    gap :11px;
+    margin-top: 12px;
+}
+.formAdmin .description{
+    height: 75px;
+    width: 100%;
+
+}
+.formAdmin button{
+    padding: 4px 22px;
+    border-radius: 5px;
+    background-color: #696969;
+    width: 49.895%;
+    border:0px;
+    box-shadow: 0px;
+    color: white;
+    height: 24px;
+
+}

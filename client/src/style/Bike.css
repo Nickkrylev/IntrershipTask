@@ -1,0 +1,84 @@
+.Bike {
+    background-color: #e8e8e8;
+
+    color: #333333;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.04px;
+    border-radius: 10px;
+    padding: 12px 18px ;
+    margin: 12px 12px ;
+}
+ .available{
+    border: 2px solid #6fcf97;
+}
+ .busy{
+    border: 2px solid #f2994a;
+}
+
+ .unavailable{
+    border: 2px solid #eb5757;
+    opacity: 0.5;
+}
+
+
+.Bike .name,.Bike .close{
+    font-weight: 700;
+
+}
+.Bike .close:hover{
+
+  opacity: 0.5;
+}
+.Bike .ID{
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12.59px;
+    color: #717171;
+}
+.Bike .status{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Bike select{
+    background-color: #e8e8e8;
+    border: 0;
+    appearance: none;
+    margin-left: 18px;
+    
+}
+.Bike select:focus {
+    outline: none;
+    border: 0px solid #000; /* Keep the same border as the default state */
+}
+  
+  .select-container {
+   display: inline-block;
+  }
+  
+
+  
+.Bike.unavailable .statusSelect {
+    
+    color: #333333; /* Opaque text for status select */
+    /* Rest of your styling */
+}
+  .select-arrow {
+    width: 10px;
+    height: 5px;
+  }
+  
+  
+  /* This styles the options */
+  .status option {
+    background: #ffffff; /* Background color of options */
+    color: #000000; /* Text color of options */
+  }
+  .Bike .BikeHeader{
+    display: flex;
+    justify-content: space-between;
+  }
+.Bike .price{
+    font-size: 24px;
+}
